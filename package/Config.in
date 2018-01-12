@@ -1966,4 +1966,18 @@ menu "Text editors and viewers"
 	source "package/vim/Config.in"
 endmenu
 
+menu "Opendingux Options"
+    source "package/bennugd/Config.in"
+    source "package/dingux-commander/Config.in"
+    source "package/etna_viv/Config.in"
+    source "package/gcw-connect/Config.in"
+    source "package/gmenu2x/Config.in"
+    source "package/ipkg/Config.in"
+    source "package/libini/Config.in"
+    source "package/libxdgmime/Config.in"
+    source "package/mesa3d-etna_viv/Config.in"
+    source "package/pwswd/Config.in"
+    source "package/pyclock/Config.in"
+endmenu
+
 endmenu
