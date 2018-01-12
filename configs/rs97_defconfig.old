@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Buildroot 2017.11-g288e7f7 Configuration
+# Buildroot 2017.11-g2c4a213-dirty Configuration
 #
 BR2_HAVE_DOT_CONFIG=y
 BR2_HOST_GCC_AT_LEAST_4_5=y
@@ -2545,7 +2545,7 @@ BR2_PACKAGE_NANO_TINY=y
 #
 # Opendingux Options
 #
-# BR2_PACKAGE_BENNUGD is not set
+BR2_PACKAGE_BENNUGD=y
 BR2_PACKAGE_DINGUX_COMMANDER=y
 # BR2_PACKAGE_ETNA_VIV is not set
 BR2_PACKAGE_GMENU2X=y
