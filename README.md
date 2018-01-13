@@ -7,7 +7,7 @@ CHANGES
 
 2018.01.12
 
-        added opendingux packages and added to config menu, some initial fixes to opendingux packages for compilation. Need to build configs within each package specifc to rs97, most have only have a320 and gcw0 as config options. Statitically set to gcw0 in those situations.
+        Added opendingux packages and added to config menu, some initial fixes to opendingux packages for compilation. Need to build configs within each package specifc to rs97, most have only have a320 and gcw0 as config options. Statitically set to gcw0 in those situations.
         
         -SNESFAN
 

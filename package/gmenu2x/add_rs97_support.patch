@@ -1,0 +1,14 @@
+--- configure.in	2018-01-13 15:22:42.580022000 -0500
++++ configure2.in	2018-01-13 15:21:48.626564000 -0500
+@@ -56,6 +56,11 @@
+ 		AC_DEFINE(PLATFORM_PANDORA)
+ 		PLATFORM="pandora"
+ 		SCREEN_RES="800x480"
++		;;
++	rs97)
++		AC_DEFINE(PLATFORM_RS97)
++		PLATFORM="rs97"
++		SCREEN_RES="640x480"
+ 	;;
+ 	pc)
+ 		AC_DEFINE(PLATFORM_PC)

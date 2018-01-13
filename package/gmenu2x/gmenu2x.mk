@@ -8,7 +8,7 @@ GMENU2X_SITE = git://projects.qi-hardware.com/gmenu2x.git
 GMENU2X_DEPENDENCIES = sdl sdl_ttf dejavu libpng
 GMENU2X_AUTORECONF = YES
 GMENU2X_CONF_OPTS = --with-sdl-prefix=$(STAGING_DIR)/usr \
-				   --enable-platform=pandora
+				   --enable-platform=rs97
 
 ifeq ($(BR2_PACKAGE_LIBOPK),y)
 GMENU2X_DEPENDENCIES += libopk
