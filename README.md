@@ -12,7 +12,7 @@ buildroot 2017.11 port of GCW0 opendingux buildroot 2014.05 for RS-97 (JZ4760)
 
 ### Changed
 - fixed dependencies in file skeleton (/var/tmp, etc/shawdow)
-- gmenu2x support for RS97(640x480)
+- gmenu2x support for RS97(320x480)
 
 ## 2018.01.12
 ### Added
