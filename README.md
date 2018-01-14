@@ -1,8 +1,8 @@
-#buildroot-2017.11
+# buildroot-2017.11
 
 buildroot 2017.11 port of GCW0 opendingux buildroot 2014.05 for RS-97 (JZ4760)
 
-##[Unreleased]
+## [Unreleased]
 
 ## Changelog
 
@@ -30,13 +30,13 @@ buildroot 2017.11 port of GCW0 opendingux buildroot 2014.05 for RS-97 (JZ4760)
 ### Added
 - Initial commit
 
-##Todo
+## Todo
 - add support for rs97 in pwswd (hotkey configs)
 - fix bennugd
 - fix etna_viv (if needed)
 - remove connectivity options as default (only need ip over usb)
 
-# Instructions
+## Instructions
 
 sudo apt-get install sed make binutils build-essential gcc g++ bash patch gzip bzip2 perl tar cpio python unzip rsync file bc wget
 
