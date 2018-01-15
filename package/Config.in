@@ -1978,6 +1978,7 @@ menu "Opendingux Options"
     source "package/mesa3d-etna_viv/Config.in"
     source "package/pwswd/Config.in"
     source "package/pyclock/Config.in"
+    source "package/libopk/Config.in"
 endmenu
 
 endmenu

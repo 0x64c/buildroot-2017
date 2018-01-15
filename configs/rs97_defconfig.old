@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Buildroot 2017.11-g8680587-dirty Configuration
+# Buildroot 2017.11-ga376694-dirty Configuration
 #
 BR2_HAVE_DOT_CONFIG=y
 BR2_HOST_GCC_AT_LEAST_4_5=y
@@ -2548,7 +2548,6 @@ BR2_PACKAGE_LIBINI=y
 BR2_PACKAGE_LIBXDGMIME=y
 BR2_PACKAGE_PWSWD=y
 BR2_PACKAGE_PWSWD_PLATFORM=""
-BR2_PACKAGE_LIBOPK=y
 
 #
 # Filesystem images
