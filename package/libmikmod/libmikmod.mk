@@ -6,7 +6,7 @@
 LIBMIKMOD_VERSION:=3.3.11.1
 LIBMIKMOD_SITE:=http://sourceforge.net/projects/mikmod/files/libmikmod/$(LIBMIKMOD_VERSION)
 
-LIBMIKMOD_CONF_OPT = --localstatedir=/var \
+LIBMIKMOD_CONF_OPTS = --localstatedir=/var \
 		--disable-esd
 
 LIBMIKMOD_LIBTOOL_PATCH = NO

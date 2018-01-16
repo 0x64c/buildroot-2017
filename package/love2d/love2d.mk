@@ -16,13 +16,13 @@ LOVE2D_DEPENDENCIES = libgles luainterpreter sdl2 \
 ifeq ($(BR2_PACKAGE_MPG123),y)
 LOVE2D_DEPENDENCIES += mpg123
 else
-LOVE2D_CONF_OPT += --disable-mpg123
+LOVE2D_CONF_OPTS += --disable-mpg123
 endif
 
 ifeq ($(BR2_PACKAGE_OPENAL_SOFT),y)
 LOVE2D_DEPENDENCIES += openal-soft
 else
-LOVE2D_CONF_OPT += --disable-implementation-audio-openal
+LOVE2D_CONF_OPTS += --disable-implementation-audio-openal
 endif
 
 ifeq ($(BR2_PACKAGE_FREETYPE),y)
@@ -34,7 +34,7 @@ endif
 ifeq ($(BR2_PACKAGE_PHYSFS),y)
 LOVE2D_DEPENDENCIES += physfs
 else
-LOVE2D_CONF_OPT += --disable-implementation-filesystem-physfs
+LOVE2D_CONF_OPTS += --disable-implementation-filesystem-physfs
 endif
 
 define LOVE2D_PREPARE_BUILD
