@@ -5,10 +5,16 @@ buildroot 2017.11 port of GCW0 opendingux buildroot 2014.05 for RS-97 (JZ4760)
 ## [Unreleased]
 
 ## Changelog
+## 2018.01.15
+### Added
+- libopk
+- post build script
+- busybox config
+
 
 ## 2018.01.13
 ### Added 
-- file structure from gcw0 buildroot
+- file skeleton from gcw0 buildroot
 
 ### Changed
 - fixed dependencies in file skeleton (/var/tmp, etc/shawdow)
@@ -22,7 +28,7 @@ buildroot 2017.11 port of GCW0 opendingux buildroot 2014.05 for RS-97 (JZ4760)
 - libxdgmime
 - pwswd
 
-### Changed 
+### Changed
 - config menu under packages>opendingux to reflect opendingux additions to buildroot
 - removed warning about ipkg in legacy config options
         
@@ -35,6 +41,30 @@ buildroot 2017.11 port of GCW0 opendingux buildroot 2014.05 for RS-97 (JZ4760)
 - fix bennugd
 - fix etna_viv (if needed)
 - remove connectivity options as default (only need ip over usb)
+
+- (research and/or add) the following packages
+
+ALSA_VOLUME
+OPENAL_SOFT
+APITRACE
+O2XIV
+ALLEGRO
+LOVE2D
+TIMIDITY_INSTRUMENTS
+UNLOCKVT
+PYTHON_PYEXPAT
+LOWPOWD
+FLUIDSYNTH
+LIBMIKMOD
+ETNA_VIV_ABIV4
+MESA3D_ETNA_VIV
+LIBUNGIF
+LIBMTPSERVER
+BOOST_STATIC
+PYCLOCK
+OD_NETWORK_CONFIG
+BAR
+GCW_CONNECT
 
 ## Instructions
 
