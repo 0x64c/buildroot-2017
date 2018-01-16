@@ -7,10 +7,10 @@ buildroot 2017.11 port of GCW0 opendingux buildroot 2014.05 for RS-97 (JZ4760)
 ## Changelog
 ## 2018.01.15
 ### Added
-- 
 - LIBOPK, SSTRIP, O2XIV, ALLEGRO, LOVE2D, TIMIDITY_INSTRUMENTS, UNLOCKVT, LOWPOWD, FLUIDSYNTH, LIBMIKMOD,  LIBUNGIF, LIBMTPSERVER, PYCLOCK, OD_NETWORK_CONFIG, BAR, GCW_CONNECT
 - post build script
 - busybox config
+- uclibc config
 
 ## 2018.01.13
 ### Added 
