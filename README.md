@@ -34,7 +34,7 @@ buildroot 2017.11 port of GCW0 opendingux buildroot 2014.05 for RS-97 (JZ4760)
 
 ## Todo
 - add support for rs97 in pwswd (hotkey configs)
-- fix bennugd
+- fix bennugd, SSTRIP, TIMIDITY_INSTRUMENTS, BAR, LOVE2D, LIBMTPSERVER
 - fix ETNA_VIV, ETNA_VIV_ABIV4, MESA3D_ETNA_VIV,(if needed)
 - remove connectivity options as default (only need ip over usb)
 
