@@ -7,10 +7,10 @@ buildroot 2017.11 port of GCW0 opendingux buildroot 2014.05 for RS-97 (JZ4760)
 ## Changelog
 ## 2018.01.15
 ### Added
-- libopk
+- 
+- LIBOPK, SSTRIP, O2XIV, ALLEGRO, LOVE2D, TIMIDITY_INSTRUMENTS, UNLOCKVT, LOWPOWD, FLUIDSYNTH, LIBMIKMOD,  LIBUNGIF, LIBMTPSERVER, PYCLOCK, OD_NETWORK_CONFIG, BAR, GCW_CONNECT
 - post build script
 - busybox config
-
 
 ## 2018.01.13
 ### Added 
@@ -22,11 +22,7 @@ buildroot 2017.11 port of GCW0 opendingux buildroot 2014.05 for RS-97 (JZ4760)
 
 ## 2018.01.12
 ### Added
-- Dingux Commander
-- Gmenu2x
-- ipkg
-- libxdgmime
-- pwswd
+- Dingux Commander, IPKG, Gmenu2x, libxdgmime, pwswd
 
 ### Changed
 - config menu under packages>opendingux to reflect opendingux additions to buildroot
@@ -39,12 +35,17 @@ buildroot 2017.11 port of GCW0 opendingux buildroot 2014.05 for RS-97 (JZ4760)
 ## Todo
 - add support for rs97 in pwswd (hotkey configs)
 - fix bennugd
-- fix etna_viv (if needed)
+- fix ETNA_VIV, ETNA_VIV_ABIV4, MESA3D_ETNA_VIV,(if needed)
 - remove connectivity options as default (only need ip over usb)
 
 - (research and/or add) the following packages
+OPENAL_SOFT, APITRACE, BOOST_STATIC, PYTHON_PYEXPAT, ALSA_VOLUME, ALSA_UTILS_AMIXER, ALSA_UTILS_APLAYMIDI
 
-SSTRIP, OPENAL_SOFT, APITRACE, O2XIV, ALLEGRO, LOVE2D, TIMIDITY_INSTRUMENTS, UNLOCKVT, LOWPOWD, FLUIDSYNTH, LIBMIKMOD, ETNA_VIV_ABIV4, MESA3D_ETNA_VIV, LIBUNGIF, LIBMTPSERVER, PYCLOCK, OD_NETWORK_CONFIG, BAR, GCW_CONNECT
+- research the following options that did not 1:1 translate 
+BR2_PACKAGE_UTIL_LINUX_BINARIES=y
+BR2_PACKAGE_LINUX_CONSOLE_TOOLS=y
+BR2_PACKAGE_LINUX_CONSOLE_TOOLS_JOY=y
+BR2_PACKAGE_LINUX_CONSOLE_TOOLS_FF=y
 
 ## Instructions
 
