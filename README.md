@@ -49,7 +49,7 @@ BR2_PACKAGE_LINUX_CONSOLE_TOOLS_FF=y
 
 ## Instructions
 
-sudo apt-get install sed make binutils build-essential gcc g++ bash patch gzip bzip2 perl tar cpio python unzip rsync file bc wget
+sudo apt-get install sed make binutils build-essential gcc g++ bash patch gzip bzip2 perl tar cpio python unzip rsync file bc wget mercurial subversion gcc-multilib libncurses5-dev
 
 git clone git://github.com/SNESFAN/buildroot-2017.git
 
