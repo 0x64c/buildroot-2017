@@ -39,22 +39,40 @@ buildroot 2017.11 port of GCW0 opendingux buildroot 2014.05 for RS-97 (JZ4760)
 - remove connectivity options as default (only need ip over usb)
 
 - (research and/or add) the following packages
-OPENAL_SOFT, APITRACE, BOOST_STATIC, PYTHON_PYEXPAT, ALSA_VOLUME, ALSA_UTILS_AMIXER, ALSA_UTILS_APLAYMIDI
+  - OPENAL_SOFT
+  - APITRACE
+  - BOOST_STATIC
+  - PYTHON_PYEXPAT
+  - ALSA_VOLUME
+  - ALSA_UTILS_AMIXER
+  - ALSA_UTILS_APLAYMIDI
 
-- research the following options that did not 1:1 translate 
-BR2_PACKAGE_UTIL_LINUX_BINARIES=y
-BR2_PACKAGE_LINUX_CONSOLE_TOOLS=y
-BR2_PACKAGE_LINUX_CONSOLE_TOOLS_JOY=y
-BR2_PACKAGE_LINUX_CONSOLE_TOOLS_FF=y
+- research the following options that did not 1:1 translate:
+  - BR2_PACKAGE_UTIL_LINUX_BINARIES=y
+  - BR2_PACKAGE_LINUX_CONSOLE_TOOLS=y
+  - BR2_PACKAGE_LINUX_CONSOLE_TOOLS_JOY=y
+  - BR2_PACKAGE_LINUX_CONSOLE_TOOLS_FF=y
 
-## Instructions
+## Build Instructions
 
-sudo apt-get install sed make binutils build-essential gcc g++ bash patch gzip bzip2 perl tar cpio python unzip rsync file bc wget mercurial subversion gcc-multilib libncurses5-dev
+### Install dependencies:
 
-git clone git://github.com/SNESFAN/buildroot-2017.git
+For Debian-based systems:
 
-cd buildroot-2017
+`apt-get install sed binutils build-essential bash patch gzip bzip2 perl tar cpio python unzip rsync file bc wget mercurial subversion gcc-multilib libncurses5-dev`
 
-make rs97_defconfig
+For Arch Linux:
 
-make
+`pacman -S base base-devel cpio python unzip rsync bc wget mercurial subversion ncurses gcc-multilib`
+
+### Clone the repository:
+
+`git clone git://github.com/SNESFAN/buildroot-2017.git`
+
+### Change to the base directory and run the build commands:
+
+`cd buildroot-2017`
+
+`make rs97_defconfig`
+
+`make`
