@@ -4,6 +4,10 @@ buildroot 2017.11 port of GCW0 opendingux buildroot 2014.05 for RS-97 (JZ4760)
 
 ## [Unreleased]
 
+## 2018.01.15
+### Changed
+- removed deprecated libxml2 dependency from MESA3D_ETNA_VIV
+
 ## Changelog
 ## 2018.01.15
 ### Added
@@ -76,3 +80,4 @@ For Arch Linux:
 `make rs97_defconfig`
 
 `make`
+
